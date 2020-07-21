@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<setup:User
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
+    name="sravani"
+    questionnaireDate="2020-02-17T21:19:16.146+0530">
+  <setupTask
+      xsi:type="setup:CompoundTask"
+      name="User Preferences">
+    <annotation
+        source="http://www.eclipse.org/oomph/setup/UserPreferences"/>
+  </setupTask>
+</setup:User>

@@ -1,0 +1,50 @@
+00:00:00.001446 main     VirtualBox COM Server 6.1.0 r135406 win.amd64 (Dec 10 2019 14:34:16) release log
+00:00:00.001453 main     Log opened 2019-12-27T08:28:50.363561900Z
+00:00:00.001456 main     Build Type: release
+00:00:00.001468 main     OS Product: Windows 10
+00:00:00.001471 main     OS Release: 10.0.10240
+00:00:00.001473 main     OS Service Pack: 
+00:00:00.153708 main     DMI Product Name: Inspiron 15-3567
+00:00:00.171325 main     DMI Product Version: 
+00:00:00.171348 main     Firmware type: UEFI
+00:00:00.171849 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.171881 main     Host RAM: 3962MB (3.8GB) total, 2304MB (2.2GB) available
+00:00:00.171892 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.171894 main     Process ID: 3376
+00:00:00.171895 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.398803          VirtualBox: object creation starts
+00:00:00.399271          Home directory: 'C:\Users\DELL\.VirtualBox'
+00:00:00.399455          Installed Drivers:
+00:00:00.406580            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.0.35406)
+00:00:00.407406            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.0.35406)
+00:00:00.408199            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.0.35406)
+00:00:00.408947            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.0.35406)
+00:00:00.410228          Loading settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.412517          usbLibGetDevices: Starting USB device enumeration
+00:00:00.435874          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.436164          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.436433          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.440044          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.440229          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x6a05)
+00:00:00.440274          USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe009)
+00:00:00.550146          HostDnsMonitor: initializing
+00:00:00.561913          HostDnsMonitor: updating information
+00:00:00.561960          HostDnsMonitor: old information
+00:00:00.561962            no server entries
+00:00:00.561964            no domain set
+00:00:00.561965            no search string entries
+00:00:00.561967          HostDnsMonitor: new information
+00:00:00.561968            server 1: 202.65.141.82
+00:00:00.561970            server 2: 8.8.8.8
+00:00:00.561972            server 3: 4.2.2.2
+00:00:00.561973            server 4: 14.139.5.5
+00:00:00.561974            no domain set
+00:00:00.561975            no search string entries
+00:00:00.666355          VD: VDInit finished with VINF_SUCCESS
+00:00:00.668181          Loading settings file "C:\Users\DELL\VirtualBox VMs\kali\kali.vbox" with version "1.16-windows"
+00:00:00.669521          VirtualBox: object created
+00:00:06.427939          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:06.492856          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:07.814858          Launched VM: 64934224 pid: 5028 (0x13a4) frontend: GUI/Qt name: kali
+00:00:16.009230          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:16.725820          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37

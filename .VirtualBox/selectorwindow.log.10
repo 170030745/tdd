@@ -1,0 +1,17 @@
+00:00:00.192469 VirtualBox GUI VM Selector Window 6.1.0 r135406 win.amd64 (Dec 10 2019 14:34:16) release log
+00:00:00.192475 Log opened 2020-01-02T10:33:10.287001400Z
+00:00:00.192476 Build Type: release
+00:00:00.192483 OS Product: Windows 10
+00:00:00.192486 OS Release: 10.0.10240
+00:00:00.192487 OS Service Pack: 
+00:00:00.210729 DMI Product Name: Inspiron 15-3567
+00:00:00.219244 DMI Product Version: 
+00:00:00.219279 Firmware type: UEFI
+00:00:00.219946 Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.219991 Host RAM: 3962MB (3.8GB) total, 1648MB available
+00:00:00.220004 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:00.220007 Process ID: 2860
+00:00:00.220009 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.220412 Qt version: 5.6.2
+00:00:00.248117 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.728613 GUI: UIMediumEnumerator: Medium-enumeration finished!

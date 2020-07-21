@@ -1,0 +1,60 @@
+00:00:00.001374 main     VirtualBox COM Server 6.1.0 r135406 win.amd64 (Dec 10 2019 14:34:16) release log
+00:00:00.001381 main     Log opened 2020-02-01T03:45:38.393229100Z
+00:00:00.001383 main     Build Type: release
+00:00:00.001394 main     OS Product: Windows 10
+00:00:00.001397 main     OS Release: 10.0.10240
+00:00:00.001399 main     OS Service Pack: 
+00:00:00.041549 main     DMI Product Name: Inspiron 15-3567
+00:00:00.063463 main     DMI Product Version: 
+00:00:00.063489 main     Firmware type: UEFI
+00:00:00.064105 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.064143 main     Host RAM: 3962MB (3.8GB) total, 2266MB (2.2GB) available
+00:00:00.064156 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.064158 main     Process ID: 6092
+00:00:00.064160 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.503063          VirtualBox: object creation starts
+00:00:00.503518          Home directory: 'C:\Users\DELL\.VirtualBox'
+00:00:00.503681          Installed Drivers:
+00:00:00.512031            C:\Windows\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.0.35406)
+00:00:00.512937            C:\Windows\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.0.35406)
+00:00:00.513620            C:\Windows\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.0.35406)
+00:00:00.514581            C:\Windows\system32\DRIVERS\VBoxNetAdp6.sys (Version: 6.1.0.35406)
+00:00:00.519069          Loading settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.521357          usbLibGetDevices: Starting USB device enumeration
+00:00:00.545651          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.545843          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.546039          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&3b45426e&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 8
+00:00:00.549757          usbLibGetDevices: Found 3 USB devices, 0 captured
+00:00:00.549958          USB: Unknown USB device detected (idVendor: 0x0c45, idProduct: 0x6a05)
+00:00:00.550005          USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe009)
+00:00:00.753364          HostDnsMonitor: initializing
+00:00:00.758983          HostDnsMonitor: updating information
+00:00:00.759006          HostDnsMonitor: old information
+00:00:00.759008            no server entries
+00:00:00.759009            no domain set
+00:00:00.759009            no search string entries
+00:00:00.759010          HostDnsMonitor: new information
+00:00:00.759011            server 1: 202.65.141.82
+00:00:00.759011            server 2: 8.8.8.8
+00:00:00.759012            server 3: 4.2.2.2
+00:00:00.759012            server 4: 14.139.5.5
+00:00:00.759013            no domain set
+00:00:00.759013            no search string entries
+00:00:00.801308          VD: VDInit finished with VINF_SUCCESS
+00:00:00.802196          Loading settings file "C:\Users\DELL\VirtualBox VMs\Kali\Kali.vbox" with version "1.16-windows"
+00:00:00.802858          VirtualBox: object created
+00:00:28.311424          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:28.413334          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:30.186153          Launched VM: 72248272 pid: 4404 (0x1134) frontend: GUI/Qt name: Kali
+00:00:35.114195          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:35.683008          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+01:26:31.587076          Saving settings file "C:\Users\DELL\VirtualBox VMs\Kali\Kali.vbox" with version "1.16-windows"
+01:26:37.796900          Saving settings file "C:\Users\DELL\VirtualBox VMs\Kali\Kali.vbox" with version "1.16-windows"
+01:26:41.423092          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:26:41.833715          Saving settings file "C:\Users\DELL\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+01:26:48.379415 main     VirtualBox: object deletion starts
+01:26:48.379465 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\DELL\VirtualBox VMs\Kali\Kali.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:26:48.666607 main     HostDnsMonitor: shutting down ...
+01:26:48.666974 main     HostDnsMonitor: shut down
+01:26:48.726295 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:26:48.749229 main     VirtualBox: object deleted
